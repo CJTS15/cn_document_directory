@@ -1,0 +1,208 @@
+/*!
+ * Start Bootstrap - Thumbnail Gallery (https://startbootstrap.com/template-overviews/thumbnail-gallery)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-thumbnail-gallery/blob/master/LICENSE)
+ */
+
+body {
+  padding-top: 50px;
+  text-align: left;
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+}
+
+/*****Nav*****/
+nav img {
+	width: 50%;
+}
+
+nav h1 {
+	font-size: 1.5rem;
+	color: white;
+}
+
+
+@media screen and (max-width: 768px) {
+	nav img {
+		display: none;
+	}
+
+	.container {
+		padding-top: 2rem;
+		text-align: center;
+	}
+}
+
+.container h1 {
+	float: right;
+}
+
+/*****Content*****/
+.content-container {
+	padding-bottom: 50px;
+}
+
+.header {
+	padding-top: 2rem;
+	margin-bottom: 40px;
+}
+
+.header h2 {
+	font-size: 2.5rem;
+	font-weight: 200;
+	margin: 0 0 0.3rem;
+	text-transform: none;
+	padding: 1rem 0 0 0;
+}
+
+
+/*****Image Hover *****/
+.image-holder {
+	position: relative;
+	width: 100%;
+	padding-top: 15px;
+}
+
+.image-holder img {
+  border-radius: 4px;
+  transition: all .3s;
+  width: 100%;
+  height: auto;
+
+}
+
+.portfolio-box-text-container {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.portfolio-box-text {
+	background: #555555;
+	color: #FFB83B;
+	height: 100%;
+  	border-radius: 0 0 4px 4px;
+  	text-align: center;
+}
+
+.image-holder:hover 
+.portfolio-box-text-container { 
+ 	height: 45%;
+}
+
+.portfolio-box-text h3 {
+	padding: 15px 20px 0 20px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+	color: #FFB83B;
+	line-height: 20px;
+	text-transform: uppercase;
+}
+
+.portfolio-box-text h3:hover {
+	color: #A2EB11;
+}
+
+.portfolio-box-text a {
+	text-decoration: none;
+}
+
+.portfolio-box-text p {
+	padding: 5px 20px 15px 20px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	color: #fff;
+	line-height: 16px;
+	text-transform: uppercase;
+}
+
+.list li {
+	text-align: justify;	
+}
+.list a {
+	text-decoration: none;
+	color: black;
+}
+
+.list a:hover {
+	color: #FFB83B;
+}
+
+footer ul > li {
+	display: inline-block;
+	margin: 0 20px 0 0;
+	font-size: 17px;
+}
+
+footer a {
+	color: white;
+}
+
+.social i {
+	font-size: 1rem;
+}
+
+.social {
+	margin-right: 5px;
+}
+
+.social-facebook {
+	display: inline-block;
+	margin-bottom: 50px;
+	margin-left: 10px;
+	width: 29px;
+	height: 29px;  
+	background: #3b5998;
+	border-radius: 50%;
+}
+
+
+.social-twitter {
+	display: inline-block;
+	margin-bottom: 50px;
+	width: 29px;
+	height: 29px;  
+	background: #00aced;
+	border-radius: 50%;
+}
+
+.social-youtube {
+	display: inline-block;
+	margin-bottom: 50px;
+	width: 29px;
+	height: 29px;  
+	background: #bb0000;
+	border-radius: 50%;
+}
+
+.social-linkedin {
+	display: inline-block;
+	margin-bottom: 50px;
+	margin-right: 10px;
+	width: 29px;
+	height: 29px;  
+	background: #007bb6;
+	border-radius: 50%;
+}
+
+.social-facebook:hover {
+	color: white;
+}  
+.social-twitter:hover {
+	color: white;
+}  
+.social-youtube:hover {
+	color: white;
+} 
+.social-linkedin:hover {
+	color: white;
+} 
